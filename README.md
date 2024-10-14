@@ -11,3 +11,8 @@ conda activate faenv_py310
 pip install fastapi
 pip install "uvicorn[standard]"
 ```
+
+##서버실행
+```
+uvicorn main:app --reload
+```
